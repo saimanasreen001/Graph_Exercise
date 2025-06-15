@@ -30,3 +30,13 @@ Project-3-Graph_Exercise/<br>
 ```bash
 4. main.py : completes the given problem by calling the respective functions.
 ```
+## How to Run?
+### 1. Clone the repository:
+```bash
+git clone https://github.com/saimanasreen001/Graph_Exercise.git
+cd Project-3-Graph_Exercise
+```
+### 2. Run the program
+```bash
+python main.py
+```
