@@ -2,7 +2,6 @@ import random
 from add import addition
 from mul import multiplication
 from div import division
-
 list = []
 
 # Get the number of elements(n>1)
@@ -10,7 +9,7 @@ n = int(input("Enter the number of elements: "))
 
 # Append elements to the list
 for i in range(n):
-    element = input(f"Enter element {i+1}: ")
+    element = int(input(f"Enter element {i+1}: "))
     list.append(element)
 
 
@@ -39,7 +38,7 @@ while i < 3:
     i+=1
 
 result=division(list)
-print(result)
+print("result: %f"%result)
 
 
 
