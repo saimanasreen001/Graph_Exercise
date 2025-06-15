@@ -3,7 +3,18 @@ from add import addition
 from mul import multiplication
 from div import division
 
-list = [1,2,3,4,5,6,7,8,9]
+list = []
+
+# Get the number of elements(n>1)
+n = int(input("Enter the number of elements: ")) 
+
+# Append elements to the list
+for i in range(n):
+    element = input(f"Enter element {i+1}: ")
+    list.append(element)
+
+
+# list = [1,2,3,4,5,6,7,8,9]
 
 sum_item=addition(list) # sum of the list items
 
